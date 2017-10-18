@@ -2,7 +2,7 @@
 
 Presentation:
 
-DatMenuItems est script/plugin, qui permet de vous faciliter la vie sur Unity3D, grace a plusieurs nouveaux sous menu.
+DatMenuItems est un script/plugin, qui permet de vous faciliter la vie sur Unity3D, grâce à plusieurs nouveaux sous menu.
 
 
 Installation et Modifications:
@@ -11,39 +11,40 @@ Installation et Modifications:
 
 .Vous pouvez changer / ajouter des raccourcis en changeant la fin du nom du menu item en question: "%" = "ctrl" | "#" = "shift" | "&" = "alt".                   
 
-.Vous pouvez aussi changer le nom des menu item destinees aux scenes pour mieux vous y retrouver.
+.Vous pouvez aussi changer le nom des menu item destinées aux scenes pour mieux vous y retrouver.
 
-.L'erreur (ArgumentException: Scene file not found: '') signifie que la scene demande n'existe pas, cela depend du nombre de scene que vous possede.             
+.L'erreur (ArgumentException: Scene file not found: '') signifie que la scène demandé n'existe pas, cela dépend du nombre de scène que vous possedez.             
 
-.S'il n'y pas assez de menu items dedies aux scenes, il vous suffit de copier/coller le dernier et d'incrementer le numero de la scene pour les 3 parametres suivants: 
+.S'il n'y pas assez de menu items dédiés aux scènes, il vous suffit de copier/coller le dernier et d'incrémenter le numero de la scène pour les 3 paramètres suivants: 
     .nom du menu item
     .nom de la fonction
     .numero de l'index
 
-.Si vous avez des ameliorations a faire n'hesitez pas a m'en faire part.
+.Si vous avez des améliorations à faire n'hésitez pas à m'en faire part.
 
 
 Liste des fonctions avec les raccourcis clavier:
 
-- bloquer le retour arriere en mode play.                                                                                                                       
+- bloquer le retour arrière en mode play.                                                                                                                       
 
-- de-selectionner(ctrl + q)
+- dé-selectionner(ctrl + q)
 
-- effacer la console(ctrl + x
+- effacer la console(ctrl + x)
+
 - lancer le mode jeu(F5)
 
 - mettre en pause(F6)
                                                                                                                                            
-- mode pas a pas(F7)
+- mode pas à pas(F7)
                                                                                                                                            
 - effacer les PlayerPrefs(ctrl + w)
                                                                                                                                  
-- ouvrir rapidement une scene(F1 /F2 /F3 /F4 /Shift+F1 
+- ouvrir rapidement une scène(F1 /F2 /F3 /F4 /Shift+F1 
 /Shift+F2 /Shift+F3 /Shift+F4) (propose de sauvegarder si ce n'est pas fait)
 
 - sauvegarde auto des scenes (Ctrl  + <)                                                                                                                        
 
 
-Nouveaute:
+Nouveauté:
   
-- copier le path de n'importe quel objet selectionner dans la scene (ctrl + shift + C)
+- copier le path de n'importe quel objet selectionné dans la scène (ctrl + shift + C)
