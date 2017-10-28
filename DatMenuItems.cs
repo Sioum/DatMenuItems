@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class DatMenuItems
 {
     // Changer la texture selectionné en Sprite
-    [MenuItem("▼ Menu ▼/ToSprite   %m")]
+    [MenuItem("▼ Menu ▼/ToSprite   %g")]
     static void Execute()
     {
         string path = AssetDatabase.GetAssetPath(Selection.activeObject);
