@@ -48,3 +48,4 @@ Liste des fonctions avec les raccourcis clavier:
 Nouveauté:
   
 - copier le path de n'importe quel objet selectionné dans la scène (ctrl + shift + C)
+- Changer la texture séléctionné en Sprite (simple). (ctrl + M)
