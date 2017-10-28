@@ -6,8 +6,21 @@ using UnityEngine.SceneManagement;
 
 public class DatMenuItems
 {
+    // Changer la texture selectionné en Sprite
+    [MenuItem("▼ Menu ▼/ToSprite   %m")]
+    static void Execute()
+    {
+        string path = AssetDatabase.GetAssetPath(Selection.activeObject);
 
-    // COPY PATH //
+        TextureImporter importer = (TextureImporter)TextureImporter.GetAtPath(path);
+        importer.textureType = TextureImporterType.Sprite;
+        importer.spriteImportMode = SpriteImportMode.Single;
+        Debug.Log(importer.spriteImportMode);
+        //AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
+        importer.SaveAndReimport();
+    }
+    
+    // Copier le chemin d'accès du GameObject
     [MenuItem("▼ Menu ▼/Copie Path   %#c",false ,11)]
     static void CopiePath()
     {
